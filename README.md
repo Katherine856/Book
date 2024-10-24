@@ -106,9 +106,6 @@ Las siguientes decisiones de diseño fueron tomadas siguiendo las especificacion
 5. **Validaciones en el Servicio**:
    - La lógica de negocio se maneja en la capa de **Servicio**, donde se implementan las validaciones necesarias antes de interactuar con los DAOs. Esto asegura que solo los datos válidos sean procesados y almacenados.
 
-6. **Manejo de Errores**:
-   - Se implementó un manejo de errores consistente, donde las excepciones son capturadas y se proporciona retroalimentación clara al usuario. Esto mejora la experiencia del usuario y facilita la depuración.
-
 Estas decisiones fueron fundamentales para cumplir con los requerimientos técnicos y funcionales del proyecto.
 
 ## Consideraciones Finales
